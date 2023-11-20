@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+/* navbar font, size */
+body nav {
+  font-family: verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.container {
+  max-width: 1100px;
+}
+/* clear float here */
+.clr {
+  clear: both;
+}
+/* nav bar background color, hight, position */
+nav {
+  background-image: linear-gradient(to right, #762d2b, #e3c695, #762d2b);
+  border: 1px solid black;
+  max-height: 100px;
+  position: -webkit-sticky;
+  position: sticky absolute;
+  top: 0;
+  padding-left: 30%;
+}
+
+/* nav link texts */
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* nav item back ground decoration */
+nav .nav-link {
+  border: 1px transparent;
+  background-image: linear-gradient(to bottom, #762d2b, #e3c695);
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+/* Nav button hover effect */
+nav li .nav-link:hover {
+  background-image: linear-gradient(to bottom, #e3c695, #762d2b);
+  box-shadow: 10px 10px 20px rgba(130, 40, 120, 51);
+}
+
+/* nav logo hover effect */
+nav li img:hover {
+  box-shadow: 0px 0px 20px #e3c695;
+}
+/* nav bar item alignment */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  align-items: middle;
+  align-self: middle;
+}
+/* nav bar item alignment */
+nav ul li {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+/* Nav bar ends */
+body {
+  background-color: black;
+}
+/* Hero img */
+
+/* whole thing */
+.hero {
+  margin-top: 5%;
+  margin-left: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: middle;
+  align-items: middle;
+}
+
+/* the text */
+.hero h1 {
+  width: 80%;
+
+  color: white;
+  font-size: 36px;
+  position: relative;
+  top: 25%;
+  left: 22%;
+}
+
+/* the image */
+.hero img {
+  height: 700px;
+  width: 980px;
+  display: block;
+  margin-left: 10%;
+}
+
+hr {
+  color: white;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+/* Fun Fact styles */
+.fact {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+.fact_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fact h1 {
+  color: white;
+  font-family: verdana, sans-serif;
+  font-size: 30px;
+}
+
+.fact_content p {
+  color: white;
+  font-family: verdana, sans-serif;
+  font-size: 22px;
+  width: 40%;
+  margin-right: 10%;
+}
+.fact div img {
+  width: 512px;
+  height: 512px;
+}
+
+/* random potato */
+
+.randpot {
+  margin-top: 5%;
+  margin-left: 20%;
+  max-width: 1050px;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.randpot img {
+  box-shadow: 0 0 20px 20px rgba(130, 40, 120, 51);
+}
+.randpot h1 {
+  color: white;
+  font-family: verdana, sans-serif;
+  font-size: 30px;
+  margin-bottom: 10%;
+  margin-left: -980px;
+}
+
+/* Footer */
+footer {
+  margin-top: 100px;
+  margin-bottom: 5%;
+}
+footer p {
+  color: white;
+  font-family: verdana, sans-serif;
+  font-size: 10px;
+  margin-left: 10%;
+}
+/* Gallery styles */
+/* gallery page font size and style */
+.gallery {
+  font-family: verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  color: white;
+}
+/* moving the whole section to center */
+.gallsec {
+  margin-left: 20%;
+}
+/* putting the title in middle */
+body section h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-left: -30%;
+}
+/* putting styles for all images */
+.gallery {
+  margin-top: auto;
+  margin-bottom: 5%;
+  margin-right: 10%;
+  margin-left: 5%;
+  width: 150px;
+  height: max-content;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Gallery styles end */
+
+/* recepe page */
+
+.food_rec {
+  color: white;
+  font-family: verdana, sans-serif;
+
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.food_rec h1 {
+  width: 80%;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 36px;
+  position: relative;
+  left: 22%;
+}
+
+.food_desc {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+}
+.food_desc div {
+  margin-left: 5%;
+}
+.food_desc div p {
+  margin-bottom: 2%;
+}
+.food_insta {
+  font-size: 24px;
+  margin-top: 2%;
+  max-width: 90%;
+  line-height: 1.4;
+}
+
+/* recepie page ends */
+
+/* type start */
+
+.type_head {
+  margin-top: 5%;
+  width: 80%;
+  margin-bottom: 1%;
+  color: white;
+  font-size: 36px;
+  position: relative;
+  left: 22%;
+}
+
+.russet {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 2.5%;
+}
+.russet_desc {
+  margin-left: 3%;
+  height: auto;
+  line-height: 3;
+}
+.russet_desc li {
+  list-style-type: none;
+}
+/* red potato */
+
+.red {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.red_desc {
+  margin-left: 3%;
+  height: auto;
+  line-height: 3;
+}
+.red_desc li {
+  list-style-type: none;
+}
+
+/* Gold potato */
+
+.gold {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.gold_desc {
+  margin-left: 3%;
+  height: auto;
+  line-height: 3;
+}
+.gold_desc li {
+  list-style-type: none;
+}
+
+/* Genuis POtato */
+.kind img {
+  width: 512px;
+}
+
+.kind {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.kind_desc {
+  margin-left: 3%;
+  height: auto;
+  line-height: 3;
+}
+.kind_desc li {
+  list-style-type: none;
+}
+
+/* Guide Start */
+
+.guide_head {
+  margin-top: 5%;
+  width: 80%;
+  margin-bottom: 1%;
+  color: white;
+  font-size: 36px;
+  position: relative;
+  left: 22%;
+}
+
+.guide_list {
+  list-style-type: none;
+}
+
+.seed img {
+  width: 500px;
+  margin-right: 5%;
+}
+.seed {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.seed_desc {
+  margin-left: 3%;
+  height: auto;
+  line-height: 3;
+}
+
+.plant img {
+  width: 500px;
+}
+.plant {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.plant_desc {
+  margin-left: 1%;
+  height: auto;
+  margin-right: 2%;
+  line-height: 1.2;
+}
+
+.grow img {
+  width: 500px;
+  margin-right: 5%;
+}
+.grow {
+  font-size: 24px;
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.grow_desc {
+  margin-left: 3%;
+  height: auto;
+  line-height: 1.2;
+}
